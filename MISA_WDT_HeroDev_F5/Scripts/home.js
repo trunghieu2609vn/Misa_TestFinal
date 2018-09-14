@@ -13,13 +13,21 @@ $('#icon-left-header').click(function () {
         $('.nav-panel-l-r').css('width','29.2%');
         $('.setting-dialog').css('width','29.2%');
         $('.nav-menu').css('box-shadow','7px -2px 36px -5px #003f7f');
+
+        // box
+            $('.box-content').css( 'left', '30px');
+            $('.box-content').css('width', 'calc(100vw - 30px)');
+        //box
     }else{
         $('.search-box').css('min-width','305px');
         $('#ip-search').css('width','74%');
         $('.nav-panel-l-r').css('width','24.2%');
         $('.setting-dialog').css('width','26.6%');
         $('.nav-menu').css('box-shadow','0 0 0 0');
-
+        // box
+            $('.box-content').css( 'left','230px');
+            $('.box-content').css('width', 'calc(100vw - 230px)');
+        //box
     }
     check++;
 });

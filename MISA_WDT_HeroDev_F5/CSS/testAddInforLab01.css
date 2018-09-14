@@ -1,0 +1,85 @@
+.box-content {
+    position: absolute;
+    top: 50px;
+    left: 230px;
+    background-color: #ff0000;
+    width: calc(100vw - 230px);
+    height: calc(100vh - 50px);
+}
+
+    .box-content .box-title {
+        background-color: #fff;
+        height: 65px;
+        width: 100%;
+        box-shadow: 0 0 6px rgb(136, 136, 136);
+        border: 1px solid #ccc;
+    }
+    .box-content .box-body{
+    	background-color: #fff;
+    	height: 100%;
+    	overflow: scroll;
+    	padding: 10px;
+    }
+    	.box-content .box-body .box-body-frame{
+    		right: auto;
+    		background-color: #fff;
+    		box-shadow: 0 2px 6px #888;
+    		border-radius: 4px;
+    		padding: 12px;
+    		margin-bottom: 20px;
+    		padding: 20px;
+    	}
+    	.box-content .box-body .box-body-frame .general-information-header div{
+			color: #0c68b5;
+			font-size: 16px;
+			min-width: 138px;
+    	}
+    		.box-content .box-body .box-body-frame .general-information-header .G-I-header-line{
+				margin-left: 10px;
+    			width: 100%;
+				height: 8px;
+				border-bottom: 1px solid #0277bd;
+    		}
+    	.box-content .box-body .box-body-frame .general-information-body{
+			margin-top: 10px;
+    	}
+    		.box-content .box-body .box-body-frame .general-information-body .G-I-body-seft{
+    			height: 232px;
+    			display: flex;
+    		}
+    			.box-content .box-body .box-body-frame .general-information-body .G-I-body-seft
+    			.G-I-body-seft-img-user{
+    				width: 120px;
+    				margin-left: 5px;margin-right: 10px;
+    			}
+    				.G-I-body-seft-img-user .btn-chose-file{
+    					cursor: pointer;
+    					height: 28px;
+    					width: 112px;
+    					background-color: gray;
+    					position: absolute;
+    					left: 39px;
+    					top: 246px;
+    					color: #fff;
+    					font-weight: bold;
+    					text-align: center;
+    				}
+    					.inp-choser{
+    						opacity: 1;
+						    color: red;
+						    height: 26px;
+						    width: 112px;
+						    cursor: pointer;
+    					}
+
+    		.box-content .box-body .box-body-frame .general-information-body .G-I-body-identification{
+    			height: 201px;
+    			margin-top: 20px;
+    			border-top: 1px solid #cfd8dc;
+    		}
+
+    		.box-content .box-body .box-body-frame .general-information-body .G-I-body-acedemic-level{
+    			height: 360px;
+    			margin-top: 20px;
+    			border-top: 1px solid #cfd8dc;
+    		}
