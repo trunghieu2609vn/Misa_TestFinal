@@ -7,6 +7,12 @@ $('#icon-left-header').click(function () {
     $('.menu-li-dropdown').filter('[status=show]').next().hide();
     $('.menu-li-dropdown').filter('[status=show]').removeAttr('status');
 
+    //thu lại các dialog setting và application nếu nó đang được hiện,khi click vào icon menubar
+    $('.setting-dialog').css('display', 'none');
+    $('.triangle').css('display', 'none');
+    $('.catalog-application-catalog').css('display', 'none');
+    //
+    
     if (check%2 == 0) {
         $('.search-box').css('min-width','390px');
         $('#ip-search').css('width','80%');
