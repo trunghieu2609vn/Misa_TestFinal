@@ -1,0 +1,106 @@
+.div-background-box-input{
+	margin: 0;
+	width: calc(100vw);
+    height: calc(100vh);
+	background-color: #ccc;
+	opacity: 0.4;
+	
+}
+.box-table-input{
+	position: fixed;
+	left: 28%;
+	top: 15%;
+	min-width: 640px;
+	min-height: 440px;
+	background-color: #fff;
+	z-index: 2;
+	border-radius: 4px;
+}
+	.box-table-input .bti-header{
+		background-color: #0f84e4;
+		border-radius: 4px;
+		padding-left: 15px;
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+		height: 35px;
+		color: #fff;
+	}
+		.box-table-input .bti-header p{
+			position: relative;
+			top: 10px;
+		}
+		.box-table-input .bti-header .max-close-box{
+			float: right;
+			display: flex;
+		}
+			.box-table-input .bti-header .max-close-box .maxsize{
+				height: 20px;
+				width: 16px;
+				margin-top: -3px;
+				margin-right: 18px;
+				background: url(../Contents/Images/maxsize.png) no-repeat;
+				cursor: pointer;
+			}
+			.box-table-input .bti-header .max-close-box .close-box{
+				height: 20px;
+				width: 16px;
+				margin-top: -5px;
+				margin-right: 20px;
+				background: url(../Contents/Images/window-close16.png) no-repeat;
+				cursor: pointer;
+			}
+	.box-table-input .bti-content{
+		height: 355px;
+		border-bottom: 1px solid #ccc;
+	}
+
+	.box-table-input .bti-footer{
+		height: 38px;
+	}
+		.box-table-input .bti-footer .btn-bti-footer{
+			height: 30px;
+			border-radius: 3px;
+			color: #000;
+			margin-top: 10px;
+			border:1px solid #ccc;
+			outline: none;
+			width: 75px;
+			background-color: #fff;
+			cursor: pointer;
+			margin-right: 6px;
+		}
+		.box-table-input .bti-footer .btn-bti-footer:hover{
+			border: 1px solid #0f84e4;
+			border-radius: 3px;
+			background-color: rgb(191,239,255,0.5);
+
+		}
+			.box-table-input .bti-footer .btn-bti-footer span{
+				margin-left: 15px;
+			}
+				.bg-help{
+					background: url(../Contents/Images/question16.png) no-repeat;
+					background-position: 9px;
+					margin-left: 15px;
+				}
+				.bg-select{
+					background: url(../Contents/Images/select16.png) no-repeat;
+					background-position: 9px;
+					margin-left: 110px;
+				}
+				.bg-add{
+					background: url(../Contents/Images/add16.png) no-repeat;
+					background-position: 9px;
+				}
+				.bg-repair{
+					background: url(../Contents/Images/edit16.png) no-repeat;
+					background-position: 9px;
+				}
+				.bg-delete{
+					background: url(../Contents/Images/delete16.png) no-repeat;
+					background-position: 9px;
+				}
+				.bg-close{
+					background: url(../Contents/Images/close16.png) no-repeat;
+					background-position: 9px;
+				}
